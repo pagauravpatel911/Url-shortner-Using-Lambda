@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body, html {
+    overflow-x: hidden;
+    background-image: url(./url\ shortner.webp);
+    /* background-position: center; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+/*     
+    display: flex;
+    justify-content: center; */
+
+}
+
+
+.search{
+  
+    
+   height: 100vh;
+   width: 100vw;
+ 
+   display: flex;
+   justify-content: center;
+    align-items: center;
+}
+
+.form{
+    margin-top: 150px;
+    background: #fff;
+    width:600px ;
+    height: 55px;
+    display: flex;
+}
+
+.form input{
+    margin-left: 20px;
+    flex: 1;
+    border: none;
+    outline: none;
+}
+.form button{
+    background: tomato;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+.display{
+    /* background-color: white; */
+    position: absolute;
+        top: 500px;
+        width:600px ;
+      height: 55px;
+       right: 470px; 
+}
+/* 
+.search_input2{
+    
+    margin-left: 20px;
+    flex: 1;
+    border: none;
+    outline: none;
+    width: 440.79px;
+}
+.button2{
+    overflow: hidden;
+    background: tomato;
+    /* position: relative; */
+    /* height: 100%;
+    padding: 10px 51px;
+    left: 401px; */
+     /* margin-left: 350px;  */
+    /* border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+} */
+ /* */ 
+
+
+
+
+
